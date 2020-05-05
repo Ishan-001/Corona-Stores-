@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "84654973571",
+    "firebase_url": "https://coronahack-856d0.firebaseio.com",
+    "project_id": "coronahack-856d0",
+    "storage_bucket": "coronahack-856d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84654973571:android:ea11cdc69b802857e131b6",
+        "android_client_info": {
+          "package_name": "com.measures.corona_hack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84654973571-t5vttfhipvvs0usn72ek86fv82st6ete.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.measures.corona_hack",
+            "certificate_hash": "109b26790f428109059d62b7c190e9c224370d0f"
+          }
+        },
+        {
+          "client_id": "84654973571-mfa9c6tpjarqit2l6gp2trssj81489av.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhZcYULfOgky4k_DTkCd2bc5I6ppAt4_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84654973571-mfa9c6tpjarqit2l6gp2trssj81489av.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

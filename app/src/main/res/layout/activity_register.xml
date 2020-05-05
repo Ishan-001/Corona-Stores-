@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:padding="40dp"
+    android:background="@drawable/gradient">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter name"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eg. Ishan Khandelwal"
+            android:id="@+id/username"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Enter email id"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eg. user@gmail.com"
+            android:inputType="textEmailAddress"
+            android:id="@+id/email"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Enter password"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Minimum 8 characters "
+            android:id="@+id/password"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Enter city"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eg. Delhi"
+            android:id="@+id/city"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Enter locality"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eg. Rohini "
+            android:id="@+id/locality"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Enter address"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eg. 64, Sector-3A, Rohini "
+            android:id="@+id/address"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Enter store name"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eg. AR Departmental Store"
+            android:id="@+id/store_name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Enter store timings"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eg. 8:00 am to 10:00 pm"
+            android:id="@+id/timings"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="What is the peak time?"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eg. 12:00 pm to 2:00 pm"
+            android:id="@+id/peak_time"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="When is the store closed?"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eg. Sunday"
+            android:id="@+id/off_day"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Type or Paste avilable items"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Eg. 1. Maggi\n      2. Bournvita"
+            android:id="@+id/items"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Any special or on-demand items?"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Eg. 1. Bread\n      2. Milk"
+            android:id="@+id/special_items"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/register_button"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_back"
+            android:text="Register"
+            android:textColor="@drawable/button_text_back"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

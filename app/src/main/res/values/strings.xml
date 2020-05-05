@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Corona Hack</string>
+    <string name="title_activity_owner">OwnerActivity</string>
+    <string name="title_home">Profile</string>
+    <string name="title_dashboard">Update</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
